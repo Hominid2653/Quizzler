@@ -6,6 +6,7 @@ import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.ktx.Firebase
+import com.google.firebase.FirebaseApp
 import np.com.bimalkafle.quizonline.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
