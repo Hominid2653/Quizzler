@@ -8,6 +8,15 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:text="Devs Group 28: Elias, Patience, Guvya, Dashie" />
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
@@ -37,12 +46,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Answer the quiz to test your knowledge"
-            android:gravity="center"
-            android:textSize="18sp"
             android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="Choose a Topic You're Familiar with to Test Your Knowledge"
             android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
