@@ -15,6 +15,10 @@ data class QuestionModel(
     val options : List<String>,
     val correct : String,
 ){
+    fun toMap() {
+        TODO("Not yet implemented")
+    }
+
     constructor() : this ("", emptyList(),"")
 }
 

@@ -1,0 +1,38 @@
+<!-- item_question.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/etQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter question"/>
+
+    <EditText
+        android:id="@+id/etOption1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 1"/>
+
+    <EditText
+        android:id="@+id/etOption2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 2"/>
+
+    <EditText
+        android:id="@+id/etOption3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 3"/>
+
+    <EditText
+        android:id="@+id/etOption4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option 4"/>
+
+</LinearLayout>

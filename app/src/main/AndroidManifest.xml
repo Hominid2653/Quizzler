@@ -14,14 +14,34 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".LoginActivity"
+            android:exported="true"
+            >
             <intent-filter>
-                <action android:name="android.intent.action" />
+                <action android:name="android.intent.action.MAIN" />
 
-
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- MainActivity (StudentDashboardActivity) -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <!-- Example: TeacherDashboardActivity -->
+        <!--<activity
+            android:name=".TeacherDashboardActivity"
+            android:label="Teacher Dashboard">
+        </activity>-->
+
+        <activity android:name=".CreateAccountActivity"
+            android:label="Create Account" />
+
+
+
+
 
 
 
@@ -30,22 +50,7 @@
             android:name=".QuizActivity"
             android:exported="false" />
 
-        <activity android:name="com.codingstuff.loginandsignup.SignInActivity"
-            android:exported="true">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-
-        </activity>
-
-        <activity android:name="com.codingstuff.loginandsignup.SignUpActivity"
-            android:exported="true">
-
-        </activity>
 
     </application>
 

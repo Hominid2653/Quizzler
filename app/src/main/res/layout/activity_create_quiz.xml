@@ -1,0 +1,61 @@
+<!-- activity_create_quiz.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etQuizTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quiz Title"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etQuizSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quiz Subtitle"
+        android:layout_below="@id/etQuizTitle"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/etQuestionTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time per Question (in minutes)"
+        android:inputType="number"
+        android:layout_below="@id/etQuizSubtitle"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/llQuestionsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/etQuestionTime"
+        android:layout_marginTop="16dp">
+
+        <!-- Dynamic layout for adding questions -->
+        <!-- Each question will be added dynamically using item_question.xml -->
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAddQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Question"
+        android:layout_below="@id/llQuestionsContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnSaveQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Quiz"
+        android:layout_below="@id/btnAddQuestion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>
