@@ -5,7 +5,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+
     tools:context=".LoginActivity">
+
+
 
     <EditText
         android:id="@+id/etEmail"
@@ -55,8 +58,8 @@
         android:id="@+id/btnCreateAccount"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Create Account"
         android:layout_below="@id/btnLogin"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:text="Create Account" />
 
 </LinearLayout>

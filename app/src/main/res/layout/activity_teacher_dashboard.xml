@@ -4,6 +4,8 @@
     android:layout_height="match_parent">
 
     <!-- Toolbar -->
+
+    <!-- Main content area -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -14,46 +16,46 @@
         android:title="Teacher Dashboard"
         android:titleTextColor="@android:color/white" />
 
-    <!-- Main content area -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:layout_below="@id/toolbar"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
         android:padding="16dp">
 
         <!-- Example: Welcome message -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
             android:text="Welcome, Teacher!"
             android:textSize="24sp"
-            android:textStyle="bold"
-            android:layout_gravity="center"
-            android:layout_marginBottom="24dp"/>
+            android:textStyle="bold" />
 
         <!-- Example: Buttons for actions -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginBottom="16dp">
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnCreateQuiz"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
                 android:layout_weight="1"
-                android:text="Create Quiz"
-                android:layout_marginEnd="8dp" />
+                android:text="Create Quiz" />
 
             <Button
                 android:id="@+id/btnViewPerformance"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
                 android:layout_weight="1"
-                android:text="View Performance"
-                android:layout_marginStart="8dp" />
+                android:text="View Performance" />
 
         </LinearLayout>
 

@@ -26,29 +26,44 @@
 
         <!-- MainActivity (StudentDashboardActivity) -->
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:name=".MainActivity">
         </activity>
-
-        <!-- Example: TeacherDashboardActivity -->
-        <!--<activity
-            android:name=".TeacherDashboardActivity"
-            android:label="Teacher Dashboard">
-        </activity>-->
 
         <activity android:name=".CreateAccountActivity"
             android:label="Create Account" />
 
+        <activity
+            android:name=".TeacherDashboardActivity"
+            android:label="Teacher Dashboard">
+        </activity>
 
-
-
-
-
-
+        <activity
+            android:name=".CreateQuizActivity"
+            android:label="Teacher Dashboard">
+        </activity>
 
         <activity
             android:name=".QuizActivity"
-            android:exported="false" />
+            android:label="Teacher Dashboard">
+        </activity>
+
+        <activity
+            android:name=".ViewPerformanceActivity"
+            android:label="Teacher Dashboard">
+        </activity>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
